@@ -16,7 +16,7 @@ namespace Herencia.Modelos
         public string toString()
         {
 
-            return $"Nombre: {base.nombre}  Apellido: {apellido} Peso: {base.peso}  Salario: {this.salario}";
+            return $"{base.toString()}  Salario: {this.salario}";
 
         }
 

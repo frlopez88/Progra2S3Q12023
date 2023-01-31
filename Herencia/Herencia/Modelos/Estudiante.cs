@@ -50,7 +50,7 @@ namespace Herencia.Modelos
         public string toString()
         {
 
-			return $"Nombre: {base.nombre}  Apellido: {apellido} Peso: {base.peso}  Promedio = {this.promedio}";
+			return $"{base.toString()} Promedio : {this.promedio}";
 
         }
 
